@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--ContactList(int imageId,String name,String account,String resume,String linkedin)-->
+
+
+
+    <ImageView
+        android:id="@+id/im_fr_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+    android:id="@+id/tv_fr_name"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:layout_below="@+id/im_fr_image"
+    android:text="sample:huiming jia"
+    android:gravity="center_vertical"
+    android:textSize="25sp"
+    />
+
+    <TextView
+        android:id="@+id/tv_fr_account"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_fr_name"
+        android:text="sample:xxx@brandeis.edu"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/tv_fr_education"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@+id/tv_image"
+        android:text="sample:Brandeis"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_fr_experience"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_fr_education"
+        android:text="sample:morgan"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_fr_skill"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_fr_experience"
+        android:text="sample:coding"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        />
+
+
+</LinearLayout>

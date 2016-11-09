@@ -33,6 +33,16 @@ public class HomeActivity extends AppCompatActivity  {
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
 
+    private String ResumeAccount;
+
+
+    public String getResumeAccount(){
+        return ResumeAccount;
+    }
+
+    public void setResumeAccount(String resumeAccount){
+        this.ResumeAccount=resumeAccount;
+    }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
